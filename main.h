@@ -71,7 +71,7 @@ void choice()
 void bat()
 {
     system("color 0A");
-    int k = 0, overs = 0;
+    int k = 0;
     printf("Game Begins Your Batting\n");
     while (k == 0)
     {
@@ -85,7 +85,6 @@ void bat()
             {
                 score = score + player;
                 printf("Score: %d\n", score);
-                overs++;
             }
             else
             {
