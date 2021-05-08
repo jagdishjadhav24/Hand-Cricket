@@ -79,7 +79,7 @@ void bat()
         scanf("%d", &player);
         if (player == 0 || player == 1 || player == 2 || player == 3 || player == 4 || player == 5 || player == 6)
         {
-            alpha = rand() % 6;
+            alpha = rand() % 7;
             printf("Computer: %d\nPlayer: %d\n", alpha, player);
             if (alpha != player)
             {
@@ -108,7 +108,7 @@ void bowl()
         scanf("%d", &player1);
         if (player1 == 0 || player1 == 1 || player1 == 2 || player1 == 3 || player1 == 4 || player1 == 5 || player1 == 6)
         {
-            alpha1 = rand() % 6;
+            alpha1 = rand() % 7;
             printf("Computer: %d\nPlayer: %d\n", alpha1, player1);
             if (alpha1 != player1)
             {
